@@ -14,26 +14,3 @@ function calculateRate(){
 
 document.getElementById('grandTotal').addEventListener('click', calculate)
 
-
-
-// let tip;
-// function updateTip() {
-//     let total = parseInt(document.querySelector('#total').value);
-//     tip = document.querySelector('#rate').value;
-//     document.getElementById("tip").innerHTML = tip;
-// }
-
-// let tax;
-// function updateTax() {
-//     let total = parseInt(document.querySelector('#total').value);
-//     tax = document.querySelector('#rate').value;
-//     tax = total * 0.055;
-//     document.getElementById("tax").innerHTML = tax;
-// }
-
-
-// function calculateRate() {
-//     let total = parseInt(document.querySelector('#total').value);
-//     document.getElementById("grandTotal").innerText =  (total + tip);
-//     event.preventDefault();
-// }
